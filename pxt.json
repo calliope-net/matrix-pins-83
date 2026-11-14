@@ -1,0 +1,26 @@
+{
+    "name": "matrix-pins-83",
+    "description": "",
+    "dependencies": {
+        "core": "*",
+        "v3": "*",
+        "i2c": "github:calliope-pins/i2c#v0.0.2",
+        "matrix": "github:calliope-pins/matrix#v0.0.2"
+    },
+    "files": [
+        "main.blocks",
+        "main.ts",
+        "README.md"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "targetVersions": {
+        "target": "8.1.15",
+        "targetId": "calliopemini"
+    },
+    "supportedTargets": [
+        "calliopemini"
+    ],
+    "preferredEditor": "blocksprj"
+}
