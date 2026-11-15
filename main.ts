@@ -8,7 +8,7 @@ i2c.onKeyboardEvent(function (zeichenCode, zeichenText, isASCII) {
     matrix.displayMatrix()
 })
 function GitHub () {
-    matrix.comment("matrix-pins-83")
+    matrix.comment("calliope-net/matrix-pins-83")
     matrix.comment("Module: OLED 128x128")
     matrix.comment("optional: I²C KeyPad; RTC")
     matrix.comment("2 Erweiterungen")
